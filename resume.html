@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gustavo Rayos - Resume</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'></script>
+</head>
+
+<body>
+    <style>
+        body,
+        html,
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .roundButton {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
+
+    <!--Begin Navigation-->
+    <div class="div-bg-black w3-hide-small gr-top">
+        <ul class="navBarWidth" style="padding: 0px 30px;">
+            <li style="float: right;">
+                <a href="contact.html">Contact</a>
+            </li>
+            <li style="float: right;">
+                <a href="resume.html">Resume</a>
+            </li>
+            <li style="float: right;">
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li style="float: right;">
+                <a href="home.html">Home</a>
+            </li>
+            <a href="home.html">
+                <img class="rs-top" src="images/Gustavo_Rayos_Logo 2.png" style="margin-top:20px;width:50px;" />
+            </a>
+        </ul>
+    </div>
+
+    <div class="div-bg-black w3-hide-medium w3-hide-large gr-top">
+        <div class="w3-center">
+            <a href="home.html">
+                <img class="rs-top" src="images/Gustavo_Rayos_Logo 2.png" style="margin-left:65px;padding: 21px 0px;width:50px;" />
+            </a>
+
+            <div class="w3-top" style="float: left;margin-top:10px;width:45px;">
+                <div onclick="openNav()" class='w3-btn-floating w3-white w3-animate-pulse'>
+                    <i style='position: relative; top: 58%; transform: translateY(-64%);font-size: 24px;' class='fa fa-bars'></i>
+                </div>
+            </div>
+            <div style="float: right;margin-top:10px;">
+                <a href='contact.html'>
+                    <div class='w3-btn-floating w3-white w3-animate-pulse'>
+                        <i style='position: relative; top: 58%; transform: translateY(-64%);font-size: 24px;' class='fa fa-envelope'></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-hide-medium w3-hide-large w3-center">
+        <div id="mySidenav" class="sidenav" style="z-index: 10;">
+            <div onclick="closeNav()" class='w3-btn-floating w3-white w3-animate-pulse' style='float: left;'>
+                <span style='position: relative;
+                          top: -4%;
+                          transform: translateY(-0%);font-size: 30px;'>&#10005;</span>
+            </div>
+            <a style="clear: both;" href="home.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!--End Navigation-->
+
+
+
+
+    <!--Header for large screens-->
+    <div class="w3-hide-small w3-hide-medium bg-800-resume w3-display-container w3-text-white">
+        <div class="div-bg-shade" style="height:800px;">
+            <div class="div-bg-black w3-display-middle w3-center w3-padding-medium" style="border: 8px solid white;">
+                <h1>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 70px; font-weight: bold;">
+                        RESUME
+                    </span>
+                </h1>
+                <p>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 25px;">
+                        Thank you for your interest.
+                    </span>
+                </p>
+                <p>
+                    <a href="https://drive.google.com/open?id=1QWkY7Vm83wn2ZOoWFLGgKIMofm0csudm">
+                        <div class="roundButton w3-hover-green">
+                            Download Resume
+                        </div>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Header for medium screens-->
+    <div class="w3-hide-small w3-hide-large bg-500-resume w3-display-container w3-text-white">
+        <div class="div-bg-shade" style="height:500px;">
+            <div class="div-bg-black w3-display-middle w3-center w3-padding-medium" style="border: 8px solid white;">
+                <h1>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 50px; font-weight: bold;">
+                        RESUME
+                    </span>
+                </h1>
+                <p>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 20px;">
+                        Thank you for your interest.
+                    </span>
+                </p>
+                <p>
+                    <a href="https://drive.google.com/open?id=1QWkY7Vm83wn2ZOoWFLGgKIMofm0csudm">
+                        <div class="roundButton w3-hover-green" style="width:100%;">
+                            Download Resume
+                        </div>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Header for small screens-->
+    <div class="w3-hide-medium w3-hide-large bg-500-resume w3-display-container w3-text-white">
+        <div class="div-bg-shade" style="height:500px;">
+            <div class="div-bg-black w3-display-middle w3-center w3-padding-medium" style="width:90%;margin-top:30px;border: 8px solid white;">
+                <h1>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 50px; font-weight: bold;">
+                        RESUME
+                    </span>
+                </h1>
+                <p>
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 20px;">
+                        Thank you for your interest.
+                    </span>
+                </p>
+                <div style="padding-bottom:16px;">
+                    <a class="roundButton w3-hover-green" href="https://drive.google.com/open?id=1QWkY7Vm83wn2ZOoWFLGgKIMofm0csudm" style="width:100%;">
+                        Download Resume
+                    </a>
+                </div>
+                <!--<p>
+                    <a href="">
+                    <div class="roundButton">
+                            <span style="font-family: 'Nunito', sans-serif; font-size: 15px;">
+                        Download Resume
+                        </span>
+                    </div>
+                </a>
+            </p>-->
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div style="padding-top:64px;">
+        <div class="w3-content w3-center">
+            <h2>
+                Focus
+            </h2>
+            <p>
+                Website design is my main focus. I like to bring creative and appealing design to all aspects of my projects. Functionality is also a key feature
+                to any design I am a part of.
+            </p>
+        </div>
+    </div>
+    -->
+
+    <div style="padding-top: 64px;padding-bottom: 64px;">
+        <div class="w3-content w3-padding-medium">
+            <div class="w3-row" style="padding-top: 32px;">
+                <div class="w3-third">
+                    <h3>
+                        <span style="font-family: 'Nunito', sans-serif; font-style: italic;">
+                            Skills
+                        </span>
+                    </h3>
+                </div>
+                <div class="w3-third">
+                    <h4>
+                        PROFICIENT
+                    </h4>
+                    <p>
+                        &#8226; HTML
+                        <br /> &#8226; CSS
+                        <br /> &#8226; JavaScript
+                        <br /> &#8226; JQuery
+                        <br /> &#8226; Java
+                        <br /> &#8226; C
+                        <br /> &#8226; WordPress
+                        <br /> &#8226; Blogger
+                        <br /> &#8226; Shopify
+                        <br /> &#8226; Domain Configuration
+                        <br /> &#8226; Logo Design
+                        <br /> &#8226; Version Control GIT
+                        <br /> &#8226; Responsive Web Design
+                        <br /> &#8226; GIMP
+                        <br />
+                    </p>
+                </div>
+                <div class="w3-third">
+                    <h4>
+                        SOME EXPERIENCE
+                    </h4>
+                    <p>
+                        &#8226; React.js
+                        <br /> &#8226; PHP
+                        <br /> &#8226; JavaScript
+                        <br />
+                    </p>
+                </div>
+            </div>
+            <div class="w3-row" style="padding-top: 64px;">
+                <div class="w3-third">
+                    <h3>
+                        <span style="font-family: 'Nunito', sans-serif; font-style: italic;">
+                            Work Experience
+                        </span>
+                    </h3>
+                </div>
+                <div class="w3-twothird">
+                    <div>
+                        <h4>
+                            WEBSITE DESIGNER
+                        </h4>
+                        <p>
+                            <span style="font-weight: bold;">
+                                Rayos Designs | Amarillo, TX | April 2018 - Current
+                            </span>
+                            <br /> In April 2018 I decided to start a Website Design company, ...
+                        </p>
+                    </div>
+                    <!--End of systems admin entry-->
+                    <div style="padding-top:32px;">
+                        <h4>
+                            SYSTEM ADMINISTRATOR
+                        </h4>
+                        <p>
+                            <span style="font-weight: bold;">
+                                CNS Pantex | Amarillo, TX | December 2015 - Current
+                            </span>
+                            <br /> As a Systems Administrator at CNS Pantex, ...
+                        </p>
+                    </div>
+                    <!--End of systems admin entry-->
+                    <div style="padding-top: 32px;">
+                        <h4>
+                            COMPUTER SCIENTIST INTERN
+                        </h4>
+                        <p>
+                            <span style="font-weight: bold;">
+                                Los Alamos National Laboratory | Los Alamos, NM | May 2015 - August 2015
+                            </span>
+                            <br /> As a Computer Scientist Intern at Los Alamos National Laboratory, ...
+                        </p>
+                    </div>
+                    <!--End of computer scientist entry-->
+                    <div style="padding-top: 32px;">
+                        <h4>
+                            COMPUTER SUPPORT TECH
+                        </h4>
+                        <p>
+                            <span style="font-weight: bold;">
+                                Dona Ana Community College | Las Cruces, NM | August 2014 - January 2015
+                            </span>
+                            <br /> As a Computer Scientist Intern at Los Alamos National Laboratory, ...
+                        </p>
+                    </div>
+                    <!--End of dacc field support entry-->
+                </div>
+            </div>
+            <div class="w3-row" style="padding-top: 64px;padding-bottom: 32px;">
+                <div class="w3-third">
+                    <h3>
+                        <span style="font-family: 'Nunito', sans-serif; font-style: italic;">
+                            Education
+                        </span>
+                    </h3>
+                </div>
+                <div class="w3-twothird">
+                    <div>
+                        <h4>
+                            BACHELOR OF ARTS IN COMPUTER SCIENCE
+                        </h4>
+                        <p>
+                            New Mexico State University | Las Cruces, NM | January 2014 - December 2015
+                    </div>
+                    <!--End of computer science degree entry-->
+                    <div style="padding-top:32px;">
+                        <h4>
+                            BACHELOR OF SCIENCE IN BIOLOGY
+                        </h4>
+                        <p>
+                            New Mexico State University | Las Cruces, NM | August 2007 - May 2013
+                    </div>
+                    <!--End of biology degree entry-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='w3-light-gray' style="padding-top: 80px;padding-bottom: 64px;">
+        <div class='navBarWidth w3-padding-medium'>
+            <div class='w3-row-padding w3-center'>
+                <div class='w3-quarter'>
+                    <i class='fa fa-desktop w3-margin-bottom w3-jumbo w3-center'></i>
+                    <p class='w3-large'>Responsiveness</p>
+                </div>
+                <div class='w3-quarter'>
+                    <i class='fa fa-heart w3-margin-bottom w3-jumbo'></i>
+                    <p class='w3-large'>Passion</p>
+                </div>
+                <div class='w3-quarter'>
+                    <i class='fa fa-diamond w3-margin-bottom w3-jumbo'></i>
+                    <p class='w3-large'>Design</p>
+                </div>
+                <div class='w3-quarter'>
+                    <i class='fa fa-cog w3-margin-bottom w3-jumbo'></i>
+                    <p class='w3-large'>Support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Begin Footer-->
+<footer class="w3-charcoal-black" style="padding-top:16px; padding-bottom: 16px;">
+        <div>
+                <div class="w3-center w3-row w3-padding-large" style="max-width:400px; margin:auto !important;font-size:16px;">
+                        <a class="w3-padding-large w3-quarter w3-hover-text-green" href="home.html" >Home</a>
+                        <a class="w3-padding-large w3-quarter w3-hover-text-green" href="portfolio.html" >Portfolio</a>
+                        <a class="w3-padding-large w3-quarter w3-hover-text-green" href="resume.html" >Resume</a>
+                        <a class="w3-padding-large w3-quarter w3-hover-text-green" href="contact.html" >Contact</a>
+                </div>
+            </div>  
+    <div class="w3-center w3-content w3-padding-medium">
+                <p>
+                    I am Gustavo Rayos, a Website Designer and Systems Administrator. I have worked in the technology field since 2015. My alma mater is 
+                    New Mexico State Univerity in which I received my degree in Computer Science. I currently reside in Amarillo, TX but travel often to all parts of 
+                    Texas and New Mexico. 
+                </p>
+            </div>    
+    <div class="w3-charcoal-black w3-row w3-content w3-center w3-padding-large">
+        <div class="w3-quarter w3-padding-large">
+                <a href="contact.html">     
+        <i class="w3-hover-text-green fa fa-phone" style="font-size: 30px;">  
+            </i>
+            </a>
+            <br/><br/>
+            <span style="font-size: 16px">575-520-5199</span>
+        </div>
+        <div class="w3-quarter w3-center w3-padding-large">
+                <a href="contact.html">   
+            <i class="w3-hover-text-green fa fa-envelope" style="font-size: 30px;">  
+            </i>
+            </a>
+            <br/><br/>
+            <span style="font-size: 16px">gustavorayos<br/>@outlook.com</span>
+            </div>
+            <div class="w3-quarter w3-padding-large">
+                <a href="https://github.com/gustavorayos" target="_blank">  
+            <i class="w3-hover-text-light-blue fa fa-github" style="font-size: 30px;">  
+            </i>
+        </a>
+        <br/><br/>
+        <span style="font-size: 16px">@gustavorayos</span>
+            </div>
+            <div class="w3-quarter w3-padding-large"> 
+                    <a href="https://www.linkedin.com/in/gustavorayos/" target="_blank">  
+                    <i class="w3-hover-text-blue fa fa-linkedin" style="font-size: 30px;">  
+                    </i>
+                    </a>
+                    <br/><br/>
+                    <span style="font-size: 16px">@gustavorayos</span>
+                    </div>
+    </div>
+    </footer>
+    
+    <div class="w3-black w3-text-gray w3-center" style="padding-top:16px;padding-bottom: 16px;">
+        <div class="w3-center w3-padding-large">
+                <span style="font-size:30px;">
+            <a href="https://www.facebook.com/gooserayos1" target="_blank">
+                <i class="fa fa-facebook w3-hover-text-blue">
+                </i>
+            </a>
+            <a href="https://www.instagram.com/gooserayos/" target="_blank">
+                <i class="fa fa-instagram w3-hover-text-pink">
+                </i>
+            </a>
+                <a href="https://twitter.com/gooserayos" target="_blank">
+                <i class="fa fa-twitter w3-hover-text-light-blue">
+                </i>
+            </a>
+                <a href="https://github.com/gustavorayos" target="_blank">
+                <i class="fa fa-github w3-hover-text-light-blue">
+                </i>
+            </a>
+                <a href="https://www.linkedin.com/in/gustavorayos/" target="_blank">
+                <i class="fa fa-linkedin w3-hover-text-blue">
+                </i>
+            </a>
+            </span>
+            <p>Created by <a class="w3-hover-text-green" href="https://www.gooserayos.com/" target="_blank">Rayos Designs</a></p>
+            </div>
+    </div>
+    <!--End of footer-->
+    
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.rs-top', {
+            duration: 2000,
+            origin: 'top',
+            distance: '100px',
+        });
+    </script>
+</body>
+
+</html>
