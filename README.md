@@ -1,7 +1,7 @@
 # Gustavo Rayos Portfolio Website
 
-Portfolio website for Gustavo Rayos used to showcase his skills as a Web Developer and Web Designer. Project was written using HTML, CSS, and JavaScript, and 
-is being hosted, with cleaver coding, using Blogger.com servers for free. 
+My portfolio website used to showcase my skills as a Web Developer and Web Designer. Project was written using HTML, CSS, and JavaScript, and 
+is being hosted on Blogger.com servers for free. 
 
 ## Getting Started
 
@@ -51,7 +51,6 @@ to run your code on Blogger.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
 * Inspiration
 * etc
 
